@@ -8,7 +8,7 @@ import dn.heaps.slib.*;
 class Assets {
     // Fonts
     public static var fontPixel : h2d.Font;
-    public static var fontPixelMon : h2d.Font;
+    public static var fontPixelMono : h2d.Font;
 
     /** Main atlas **/
     public static var tiles : SpriteLib;

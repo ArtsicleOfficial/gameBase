@@ -33,7 +33,7 @@ class App extends dn.Process {
 
         // Optional screen that shows a "Click to start/continue" message when the game client loses focus
         if( dn.heaps.GameFocusHelper.isUseful() )
-            new dn.heaps.GameFocusHelper(scene, assets.fontPixel);
+            new dn.heaps.GameFocusHelper(scene, Assets.fontPixel);
 
         #if debug
         Console.ME.enableStats();
@@ -278,7 +278,7 @@ class App extends dn.Process {
     override function onDispose() {
         super.onDispose();
 
-        hxd.Window.getInstance.removeEventTarget( onWindowEvent );
+        hxd.Window.getInstance().removeEventTarget( onWindowEvent );
 
         #if hl
         hxd.System.exit();
