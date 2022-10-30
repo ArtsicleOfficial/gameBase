@@ -2,7 +2,7 @@ package assets;
 
 #if( macro || display)
 import haxe.macro.Context;
-import haxe.macor.Expr;
+import haxe.macro.Expr;
 using haxe.macro.Tools;
 #end
 
